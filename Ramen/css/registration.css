@@ -1,0 +1,60 @@
+/*
+ * File name: registration.css
+ * Author: Jill Lin
+ * Course: CST8285 – 311
+ * Assignment: Assignment 2
+ * Due Date: 12-04-2022
+ * Professor: Abul Qasim
+ * Purpose: This file is the css for registration.php.
+ */
+body {
+    color: aliceblue;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+main {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+
+h1 {
+    color: aliceblue;
+    font-size: 24pt;
+}
+
+.formcontainer{
+    padding: 10px;
+    margin: 1%;
+}
+
+form > div {
+    font-size: 14pt;
+    margin-top: 10px;
+}
+
+#email, #login, #pass, #pass2 {
+    font-size: 14pt;
+    width: 100%;
+}
+
+button {
+    font-size: 14pt;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+a {
+    color: antiquewhite;
+}
+
+main p{
+    color:red;
+    font-size: 12pt;
+
+    }

@@ -1,0 +1,71 @@
+/*
+ * File name: stylesheetforindex.css
+ * Author: Chuang Li 
+ * Course: CST8285 – 311
+ * Assignment: Assignment 2
+ * Due Date: 12-04-2022
+ * Professor: Abul Qasim
+ * Purpose: This file is the css for index.php.
+ */
+
+body {
+    background-color: #000;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff
+}
+
+main {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+#MainHeading {
+    text-align: left;
+    font-size: xx-large;
+    height: 100px;
+}
+
+.subheading {
+    text-align: center;
+    margin: 30px, 10px;
+    font-weight: bolder;
+    font-size: 24pt;
+}
+
+
+.gridContainer1 {
+    display: grid;
+    grid-gap: 5px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 2fr 2fr;
+    grid-auto-rows: auto;
+    margin: 10px, 150px;
+
+}
+
+.gridContainer2 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 2fr 2fr;
+    grid-auto-rows: auto;
+
+}
+
+.noodleItem, .sideItem {
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    [class*="gridContainer"] {
+        display: flex;
+        flex-direction: column;
+    }
+}

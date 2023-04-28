@@ -1,0 +1,60 @@
+/*
+ * File name: headerfooter.css
+ * Author: Jill Lin, Miao Yang 
+ * Course: CST8285 – 311
+ * Assignment: Assignment 2
+ * Due Date: 12-04-2022
+ * Professor: Abul Qasim
+ * Purpose: This file is the css for headerM.php and footerM.php.
+ */
+ 
+header,
+footer {
+    max-width: 1080px;
+    background-image: url(../img/headimage.jpg);
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo {
+    width: 20%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+header nav {
+
+    display: flex;
+    justify-content: right;
+    margin-right: 2%;
+    font-size: 12pt;
+}
+
+.flexbox {
+    border-radius: 5px;
+    background-color: red;
+    padding: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    margin: 5px; 
+}
+
+
+.foot
+{
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-indent: 10px;
+    font-size: 10pt;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(58, 56, 56);
+}
